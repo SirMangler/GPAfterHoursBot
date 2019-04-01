@@ -1,4 +1,3 @@
-
 Run via `java -jar afterhoursbot.jar`
 
 Unless you're certain you know what you're doing, don't edit the Config directly, use the supplied commands.
@@ -16,7 +15,7 @@ Commands
 
  * **removeName** [name] - Removes a name that the bot can use.
 
- * **play** [link] - Plays the link (e.g youtube or spotify) in the music
+ * **play** [link] - Plays the link [e.g youtube or spotify] in the music
    channel.
    
  * **skip** - Skips the playing song.
@@ -24,6 +23,8 @@ Commands
  * **ping** - Tests response time.
 
  * **setMusicChannel** - Sets the channel that the bot joins for music.
+ 
+ * **reloadConfig** - Reloads the config. [Only really needed for DEV]
 
 ## Embed Commands
 
@@ -42,5 +43,8 @@ Commands
      
  - **removeRole** @[role] - Removes a role and it's description from the   
    info embed.
+
+ - **quickEmbed** [description] - Quickly makes an embed with the description.
+
 
 *Bot created and developed by SirMangler in Java for GP After Hours.*
